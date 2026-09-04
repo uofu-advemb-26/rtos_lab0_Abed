@@ -10,9 +10,9 @@ To add the Pico configuration files:
 1. Copy `rpi_pico_rp2040_w.repl` to the `platforms/cpus` directory.
 # RTOS Lab 0
 
-This project is my Lab 0 project for the embedded systems course. It demonstrates building, testing, and deploying a FreeRTOS application on the Raspberry Pi Pico W using CMake, the Raspberry Pi Pico SDK, and Unity.
+![CMake](https://github.com/uofu-advemb-26/rtos_lab0_Abed/actions/workflows/main.yml/badge.svg)
 
-![example workflow](https://github.com/uofu-advemb-26/rtos_lab0_Abed/actions/workflows/main.yml/badge.svg)
+This project is my Lab 0 project for the embedded systems course. It demonstrates building, testing, and deploying a FreeRTOS application on the Raspberry Pi Pico W using CMake, the Raspberry Pi Pico SDK, and Unity.
 
 
 
