@@ -33,7 +33,7 @@ elseif(DEFINED ENV{UNITY_PATH})
     set(UNITY_PATH $ENV{UNITY_PATH})
 else()
 # Default to the submodule
-    set(UNITY_PATH lib/unity)
+    set(UNITY_PATH lib/Unity)
 endif()
 
 if(DEFINED ENV{OPENOCD_PATH})
@@ -51,6 +51,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
 # This imports the Pico SDK (must be included before the project)
+set(PICOTOOL_FORCE_FETCH_FROM_GIT ON CACHE BOOL "" FORCE)
 include(${PICO_SDK_PATH}/pico_sdk_init.cmake)
 
 # This imports the library configuration for FreeRTOS
